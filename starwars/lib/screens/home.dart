@@ -10,8 +10,8 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   bool isDark = false;
 
-  final List<String> entries = <String>['A', 'B', 'C', 'D', 'E', 'F'];
-  final List<int> colorCodes = <int>[600, 500, 400, 300, 200, 100];
+  final List<String> entries = <String>['A', 'B', 'C', 'D', 'E'];
+  final List<int> colorCodes = <int>[600, 500, 400, 300, 200];
 
   @override
   Widget build(BuildContext context) {

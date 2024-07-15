@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:starwars/view/home.dart';
+import 'package:starwars/screens/home.dart';
 
 void main() {
   runApp(const MyApp());

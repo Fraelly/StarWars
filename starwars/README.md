@@ -1,16 +1,29 @@
-# starwars
+**#Star Wars API Flutter App**
 
-A new Flutter project.
+**Descrição**
 
-## Getting Started
+Este é um aplicativo móvel desenvolvido com Flutter que consome a API do Star Wars para exibir informações sobre filmes, personagens, naves espaciais, e muito mais. O objetivo deste projeto é demonstrar como integrar uma API RESTful com um aplicativo Flutter e fornecer uma interface de usuário intuitiva e amigável.
 
-This project is a starting point for a Flutter application.
+**Funcionalidades**
 
-A few resources to get you started if this is your first Flutter project:
+Exibir uma lista de filmes do Star Wars.
+Visualizar detalhes de um filme específico.
+Listar personagens, naves espaciais e outros recursos relacionados ao universo Star Wars.
+Pesquisar por personagens, naves e outros itens.
+Navegação simples e intuitiva entre diferentes seções do aplicativo.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+**Requisitos**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Flutter 2.0 ou superior
+Dart 2.12 ou superior
+
+**Estrutura do Projeto**
+
+lib/
+│
+├── main.dart         # Ponto de entrada do aplicativo
+├── models/           # Modelos de dados para a API do Star Wars
+├── services/         # Serviços para consumir a API do Star Wars
+├── screens/          # Telas do aplicativo
+├── widgets/          # Widgets reutilizáveis
+└── utils/            # Utilitários e constantes
