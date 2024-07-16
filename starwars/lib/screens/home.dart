@@ -81,7 +81,7 @@ class _HomeState extends State<Home> {
                 heightFactor: 2,
                 child: Text('Trilogia')),
             Expanded(
-              flex: 1,
+              flex: 2,
               child: SizedBox(
                 // height: 50.0,
                 child: ListView.separated(
@@ -107,7 +107,7 @@ class _HomeState extends State<Home> {
                 heightFactor: 2,
                 child: Text('Trilogia')),
             Expanded(
-              flex: 1,
+              flex: 2,
               // child: SizedBox(
                 // height: 30.0,
                 child: ListView.separated(
